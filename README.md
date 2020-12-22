@@ -27,3 +27,13 @@ http://IP/HOSTNAME:8080 <---------------- For centos
 #### AND for ubuntu container.
 
 http://IP/HOSTNAME:8080/nextcloud <---------------- For ubuntu
+
+#### Also, if you do not want to build then pull updated images from dockerhub using following command.
+
+docker pull harishjadhav26/nextcloud:20.0.4-cent7.9
+
+#### Start container execute following command.
+
+docker run -itd -p 8080:80 harishjadhav26/nextcloud:20.0.4-cent7.9
+
+
